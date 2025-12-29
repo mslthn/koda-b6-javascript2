@@ -12,6 +12,8 @@ let rata=0
 for (let i = 0; i < jumlah; i++) {
     // console.log(gabunganNilai[i]);
     max = gabunganNilai[i]
+    min = gabunganNilai[0]
+    
     if (max > gabunganNilai[i+1]){
         max = gabunganNilai[i]
     }
@@ -19,13 +21,13 @@ for (let i = 0; i < jumlah; i++) {
 
     
 }
-for(let i = jumlah; i >= 0; i--){
+for(let i = 0; i < jumlah; i++){
     // console.log(gabunganNilai[i])
-    min = gabunganNilai[i]
+    min = gabunganNilai[0]
     if (min < gabunganNilai[i]){
         min = gabunganNilai[i]
-        if(gabunganNilai[i]>min){
-            min = min
+        if(min > gabunganNilai[i]){
+            min = gabunganNilai[i]
         }
     }
 

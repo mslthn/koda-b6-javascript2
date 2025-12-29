@@ -4,7 +4,7 @@ start@{shape: circ}
 array@{label: "nilaiJohn = [75, 80, 79, 90]
 nilaiEd = [66, 77, 88, 99]"}
 gabung@{label: "gabNilai = nilaiJohn + nilaiEd"}
-init@{shape: lean-r, label: "input: min, max, rata,
+init@{shape: lean-r, label: "input: min, max, total, rata,
 jumlah = gabNilai.length,
 i=0"}
 

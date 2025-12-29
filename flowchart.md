@@ -1,8 +1,7 @@
 ```mermaid
 flowchart TD
 start@{shape: circ}
-array@{label: "input: 
-nilaiJohn = [75, 80, 79, 90]
+array@{label: "nilaiJohn = [75, 80, 79, 90]
 nilaiEd = [66, 77, 88, 99]"}
 gabung@{label: "gabNilai = nilaiJohn + nilaiEd"}
 init@{shape: lean-r, label: "input: min, max, rata,

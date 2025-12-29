@@ -12,12 +12,11 @@ for (let i = 0; i < jumlah; i++) {
     
     if (gabunganNilai[i] > max){
         max = gabunganNilai[i]
-    }
-    total += gabunganNilai[i]
-
-    if (gabunganNilai[i] < min){
+    } else if (gabunganNilai[i] < min){
         min = gabunganNilai[i]
     }    
+    total += gabunganNilai[i]
+
 }
 rata = total / jumlah
 
